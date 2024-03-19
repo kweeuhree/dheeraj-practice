@@ -1,0 +1,1 @@
+This repository contains practice exercises from the book 'HTML & JavaScript Practice Questions' by Dheeraj Singh. 
