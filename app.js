@@ -115,19 +115,19 @@
 // console.log("Gcd of given numbers is "+ gcdRecursive(34, 17));
 
 // This is iterative Euclidean Algorithm: 
-function gcdIterative(a, b) {
-    while (a !== 0) {
-        const temp = a;
-        console.log(`${a} is a before calculating remainder`);
-        console.log(`${b} is b before calculating remainder`);
-        a = b % a;
-        console.log(`${a} is a after calculating remainder`);
-        b = temp;
-        console.log(`${b} is b after assigning temp to b`);
-    }
-    return b;
-}
-console.log("Gcd of given numbers is "+ gcdIterative(34, 17));
+// function gcdIterative(a, b) {
+//     while (a !== 0) {
+//         const temp = a;
+//         console.log(`${a} is a before calculating remainder`);
+//         console.log(`${b} is b before calculating remainder`);
+//         a = b % a;
+//         console.log(`${a} is a after calculating remainder`);
+//         b = temp;
+//         console.log(`${b} is b after assigning temp to b`);
+//     }
+//     return b;
+// }
+// console.log("Gcd of given numbers is "+ gcdIterative(34, 17));
 
 // This is the Binary Euclidean Algorithm implementation and I don't understand it just yet.
 
@@ -174,4 +174,29 @@ console.log("Gcd of given numbers is "+ gcdIterative(34, 17));
 // }
 
 // console.log("Gcd of given numbers is "+ gcdBinaryIterative(34, 17));
+
+// --------------------------------------------------------------------------------------//
+
+// 19. Write a JavaScript function to convert a decimal number to binary, 
+// hexadecimal or octal number using switch ().
+// function convertDecimal(num, conversionType) {
+//     let result;
+
+//     switch(conversionType) {
+//         case 'bin':
+//             result = (num >>> 0).toString(2);
+//             break;
+//         case 'hex':
+//             result = num.toString(16);
+//             break;
+//         case 'oct':
+//             result = num.toString(8);
+//             break;
+//         default:
+//             console.log('There is an error')
+//     }
+//     console.log(`Entered number (${num}) converted into ${conversionType} equals ${result}`);
+// }
+
+// convertDecimal(1589, 'bin');
 
